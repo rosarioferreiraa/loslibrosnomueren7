@@ -1,0 +1,186 @@
+       body, h1, h2, p, ul, li {
+            margin: 0;
+            padding: 0px;
+        }
+
+        h2 {
+            text-align: center;
+            color: black;
+            font-size: 34px
+        }
+
+        h3 {
+            text-align: center;
+            color: black;
+            font-size: 30px
+        }
+
+        h4 {
+            text-align: center;
+            color: black;
+            font-size: 18px;
+        }
+
+        h6 {
+            text-align: center;
+            color: black;
+            font-size: 18px;
+        }
+
+        body {
+            font-family: Adobe Caslon, sans-serif;
+        }
+
+        header {
+            background-color: purple;
+            color: white;
+            padding: 10px;
+            padding-top: 5px;
+            text-align: center;
+        }
+
+
+        ol {
+            list-style: none;
+            display: inline;
+        }
+
+        li {
+            display: inline;
+            margin: 65px;
+        }
+
+
+        ul li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        main {
+            color: black;
+            padding: 50px;
+        }
+
+        section {
+            color: black;
+            margin-bottom: 30px;
+            padding-left: 30PX;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        .row{
+            display:block;
+            width:100%;
+        }
+        .submenu {
+            position: relative;
+        }
+
+            .submenu #carrito {
+                display: none;
+            }
+
+            .submenu:hover #carrito {
+                display: block;
+                position: absolute;
+                right: 0;
+                top: 100%;
+                z-index: 1;
+                background-color: white;
+                padding: 20px;
+                min-height: 400px;
+                min-width: 300px;
+            }
+        .vacio {
+            padding: 10px;
+            background-color: crimson;
+            text-align: center;
+            border-radius: 10px;
+            color: white;
+        }
+        .u-full-width {
+            width: 100%;
+            box-sizing: border-box;
+            color:black;
+        }
+
+        .u-max-full-width {
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        .u-pull-right {
+            float: right;
+        }
+
+        .u-pull-left {
+            float: left;
+        }
+        a.button {
+            border-radius: 3px;
+            color: white;
+            background-color: purple;
+            align-text: center;
+            padding: 6px 20px;
+        }
+
+        .columna {
+            margin: auto;
+            width: 30%;
+            padding: 10px;
+            float: left;
+            text-align: center;
+        }
+
+        .columna2 {
+            margin: auto;
+            width: 100%;
+            padding: 10px;
+            float: left;
+            text-align: center;
+        }
+
+        .formulario {
+            width: 100%;
+            text-align: center;
+            display: flex;
+            align-items: flex-start;
+            padding-top:30px;
+
+        }
+        .card {
+            text-align: center;
+            border: 1px solid #e1e1e1;
+            background: white;
+        }
+
+        @media (min-width: 550px) {
+            .card {
+                margin: auto;
+                width: 30%;
+                padding: 10px;
+                float: left;
+                text-align: center;
+            }
+        }
+
+        .info-card {
+            padding: 10px 20px;
+        }
+
+            .info-card p,
+            .card h4 {
+                margin-bottom: 5px;
+            }
+
+            .info-card .precio {
+                font-size: 18px;
+                margin-top: 10px;
+            }
+
+
